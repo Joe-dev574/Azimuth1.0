@@ -14,6 +14,8 @@
 		37751BDF2C973ADD007B1089 /* Azimuth1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BDE2C973ADD007B1089 /* Azimuth1_0Tests.swift */; };
 		37751BE92C973ADD007B1089 /* Azimuth1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BE82C973ADD007B1089 /* Azimuth1_0UITests.swift */; };
 		37751BEB2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BEA2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift */; };
+		37751BFD2C973B87007B1089 /* ObjectiveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BFC2C973B87007B1089 /* ObjectiveList.swift */; };
+		37751BFF2C9741A6007B1089 /* Objective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BFE2C9741A6007B1089 /* Objective.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		37751BE42C973ADD007B1089 /* Azimuth1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Azimuth1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37751BE82C973ADD007B1089 /* Azimuth1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azimuth1_0UITests.swift; sourceTree = "<group>"; };
 		37751BEA2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azimuth1_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37751BFC2C973B87007B1089 /* ObjectiveList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveList.swift; sourceTree = "<group>"; };
+		37751BFE2C9741A6007B1089 /* Objective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objective.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		37751BC02C973ADC007B1089 = {
 			isa = PBXGroup;
 			children = (
+				37751BCC2C973ADC007B1089 /* Azimuth1_0App.swift */,
 				37751BCB2C973ADC007B1089 /* Azimuth1.0 */,
 				37751BDD2C973ADD007B1089 /* Azimuth1.0Tests */,
 				37751BE72C973ADD007B1089 /* Azimuth1.0UITests */,
@@ -95,8 +100,11 @@
 		37751BCB2C973ADC007B1089 /* Azimuth1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				37751BCC2C973ADC007B1089 /* Azimuth1_0App.swift */,
-				37751BCE2C973ADC007B1089 /* ContentView.swift */,
+				37751BFB2C973B46007B1089 /* Support */,
+				37751BFA2C973B3E007B1089 /* Managers */,
+				37751BF92C973B36007B1089 /* Models */,
+				37751BF82C973B2E007B1089 /* Screens */,
+				37751BF72C973B08007B1089 /* Views */,
 				37751BD02C973ADD007B1089 /* Assets.xcassets */,
 				37751BD22C973ADD007B1089 /* Azimuth1_0.entitlements */,
 				37751BD32C973ADD007B1089 /* Preview Content */,
@@ -127,6 +135,44 @@
 				37751BEA2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift */,
 			);
 			path = Azimuth1.0UITests;
+			sourceTree = "<group>";
+		};
+		37751BF72C973B08007B1089 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37751BCE2C973ADC007B1089 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37751BF82C973B2E007B1089 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		37751BF92C973B36007B1089 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37751BFC2C973B87007B1089 /* ObjectiveList.swift */,
+				37751BFE2C9741A6007B1089 /* Objective.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37751BFA2C973B3E007B1089 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		37751BFB2C973B46007B1089 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37751BFD2C973B87007B1089 /* ObjectiveList.swift in Sources */,
+				37751BFF2C9741A6007B1089 /* Objective.swift in Sources */,
 				37751BCF2C973ADC007B1089 /* ContentView.swift in Sources */,
 				37751BCD2C973ADC007B1089 /* Azimuth1_0App.swift in Sources */,
 			);
