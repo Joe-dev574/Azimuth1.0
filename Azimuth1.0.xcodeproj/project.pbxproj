@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37751BCD2C973ADC007B1089 /* Azimuth1_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BCC2C973ADC007B1089 /* Azimuth1_0App.swift */; };
+		37751BCF2C973ADC007B1089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BCE2C973ADC007B1089 /* ContentView.swift */; };
+		37751BD12C973ADD007B1089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37751BD02C973ADD007B1089 /* Assets.xcassets */; };
+		37751BD52C973ADD007B1089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37751BD42C973ADD007B1089 /* Preview Assets.xcassets */; };
+		37751BDF2C973ADD007B1089 /* Azimuth1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BDE2C973ADD007B1089 /* Azimuth1_0Tests.swift */; };
+		37751BE92C973ADD007B1089 /* Azimuth1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BE82C973ADD007B1089 /* Azimuth1_0UITests.swift */; };
+		37751BEB2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37751BEA2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37751BDB2C973ADD007B1089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37751BC12C973ADC007B1089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37751BC82C973ADC007B1089;
+			remoteInfo = Azimuth1.0;
+		};
+		37751BE52C973ADD007B1089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37751BC12C973ADC007B1089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37751BC82C973ADC007B1089;
+			remoteInfo = Azimuth1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37751BC92C973ADC007B1089 /* Azimuth1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azimuth1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37751BCC2C973ADC007B1089 /* Azimuth1_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azimuth1_0App.swift; sourceTree = "<group>"; };
+		37751BCE2C973ADC007B1089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37751BD02C973ADD007B1089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37751BD22C973ADD007B1089 /* Azimuth1_0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Azimuth1_0.entitlements; sourceTree = "<group>"; };
+		37751BD42C973ADD007B1089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37751BDA2C973ADD007B1089 /* Azimuth1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Azimuth1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37751BDE2C973ADD007B1089 /* Azimuth1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azimuth1_0Tests.swift; sourceTree = "<group>"; };
+		37751BE42C973ADD007B1089 /* Azimuth1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Azimuth1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37751BE82C973ADD007B1089 /* Azimuth1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azimuth1_0UITests.swift; sourceTree = "<group>"; };
+		37751BEA2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azimuth1_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37751BC62C973ADC007B1089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37751BD72C973ADD007B1089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37751BE12C973ADD007B1089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37751BC02C973ADC007B1089 = {
+			isa = PBXGroup;
+			children = (
+				37751BCB2C973ADC007B1089 /* Azimuth1.0 */,
+				37751BDD2C973ADD007B1089 /* Azimuth1.0Tests */,
+				37751BE72C973ADD007B1089 /* Azimuth1.0UITests */,
+				37751BCA2C973ADC007B1089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37751BCA2C973ADC007B1089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37751BC92C973ADC007B1089 /* Azimuth1.0.app */,
+				37751BDA2C973ADD007B1089 /* Azimuth1.0Tests.xctest */,
+				37751BE42C973ADD007B1089 /* Azimuth1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37751BCB2C973ADC007B1089 /* Azimuth1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				37751BCC2C973ADC007B1089 /* Azimuth1_0App.swift */,
+				37751BCE2C973ADC007B1089 /* ContentView.swift */,
+				37751BD02C973ADD007B1089 /* Assets.xcassets */,
+				37751BD22C973ADD007B1089 /* Azimuth1_0.entitlements */,
+				37751BD32C973ADD007B1089 /* Preview Content */,
+			);
+			path = Azimuth1.0;
+			sourceTree = "<group>";
+		};
+		37751BD32C973ADD007B1089 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37751BD42C973ADD007B1089 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37751BDD2C973ADD007B1089 /* Azimuth1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				37751BDE2C973ADD007B1089 /* Azimuth1_0Tests.swift */,
+			);
+			path = Azimuth1.0Tests;
+			sourceTree = "<group>";
+		};
+		37751BE72C973ADD007B1089 /* Azimuth1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				37751BE82C973ADD007B1089 /* Azimuth1_0UITests.swift */,
+				37751BEA2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift */,
+			);
+			path = Azimuth1.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37751BC82C973ADC007B1089 /* Azimuth1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37751BEE2C973ADD007B1089 /* Build configuration list for PBXNativeTarget "Azimuth1.0" */;
+			buildPhases = (
+				37751BC52C973ADC007B1089 /* Sources */,
+				37751BC62C973ADC007B1089 /* Frameworks */,
+				37751BC72C973ADC007B1089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Azimuth1.0;
+			productName = Azimuth1.0;
+			productReference = 37751BC92C973ADC007B1089 /* Azimuth1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37751BD92C973ADD007B1089 /* Azimuth1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37751BF12C973ADD007B1089 /* Build configuration list for PBXNativeTarget "Azimuth1.0Tests" */;
+			buildPhases = (
+				37751BD62C973ADD007B1089 /* Sources */,
+				37751BD72C973ADD007B1089 /* Frameworks */,
+				37751BD82C973ADD007B1089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37751BDC2C973ADD007B1089 /* PBXTargetDependency */,
+			);
+			name = Azimuth1.0Tests;
+			productName = Azimuth1.0Tests;
+			productReference = 37751BDA2C973ADD007B1089 /* Azimuth1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37751BE32C973ADD007B1089 /* Azimuth1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37751BF42C973ADD007B1089 /* Build configuration list for PBXNativeTarget "Azimuth1.0UITests" */;
+			buildPhases = (
+				37751BE02C973ADD007B1089 /* Sources */,
+				37751BE12C973ADD007B1089 /* Frameworks */,
+				37751BE22C973ADD007B1089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37751BE62C973ADD007B1089 /* PBXTargetDependency */,
+			);
+			name = Azimuth1.0UITests;
+			productName = Azimuth1.0UITests;
+			productReference = 37751BE42C973ADD007B1089 /* Azimuth1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37751BC12C973ADC007B1089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					37751BC82C973ADC007B1089 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					37751BD92C973ADD007B1089 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 37751BC82C973ADC007B1089;
+					};
+					37751BE32C973ADD007B1089 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 37751BC82C973ADC007B1089;
+					};
+				};
+			};
+			buildConfigurationList = 37751BC42C973ADC007B1089 /* Build configuration list for PBXProject "Azimuth1.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37751BC02C973ADC007B1089;
+			productRefGroup = 37751BCA2C973ADC007B1089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37751BC82C973ADC007B1089 /* Azimuth1.0 */,
+				37751BD92C973ADD007B1089 /* Azimuth1.0Tests */,
+				37751BE32C973ADD007B1089 /* Azimuth1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37751BC72C973ADC007B1089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37751BD52C973ADD007B1089 /* Preview Assets.xcassets in Resources */,
+				37751BD12C973ADD007B1089 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37751BD82C973ADD007B1089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37751BE22C973ADD007B1089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37751BC52C973ADC007B1089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37751BCF2C973ADC007B1089 /* ContentView.swift in Sources */,
+				37751BCD2C973ADC007B1089 /* Azimuth1_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37751BD62C973ADD007B1089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37751BDF2C973ADD007B1089 /* Azimuth1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37751BE02C973ADD007B1089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37751BEB2C973ADD007B1089 /* Azimuth1_0UITestsLaunchTests.swift in Sources */,
+				37751BE92C973ADD007B1089 /* Azimuth1_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37751BDC2C973ADD007B1089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37751BC82C973ADC007B1089 /* Azimuth1.0 */;
+			targetProxy = 37751BDB2C973ADD007B1089 /* PBXContainerItemProxy */;
+		};
+		37751BE62C973ADD007B1089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37751BC82C973ADC007B1089 /* Azimuth1.0 */;
+			targetProxy = 37751BE52C973ADD007B1089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37751BEC2C973ADD007B1089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37751BED2C973ADD007B1089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		37751BEF2C973ADD007B1089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Azimuth1.0/Azimuth1_0.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Azimuth1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 99S33YCFRB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tnt.Azimuth1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37751BF02C973ADD007B1089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Azimuth1.0/Azimuth1_0.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Azimuth1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 99S33YCFRB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tnt.Azimuth1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37751BF22C973ADD007B1089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99S33YCFRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tnt.Azimuth1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Azimuth1.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Azimuth1.0";
+			};
+			name = Debug;
+		};
+		37751BF32C973ADD007B1089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99S33YCFRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tnt.Azimuth1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Azimuth1.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Azimuth1.0";
+			};
+			name = Release;
+		};
+		37751BF52C973ADD007B1089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99S33YCFRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tnt.Azimuth1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Azimuth1.0;
+			};
+			name = Debug;
+		};
+		37751BF62C973ADD007B1089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99S33YCFRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tnt.Azimuth1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Azimuth1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37751BC42C973ADC007B1089 /* Build configuration list for PBXProject "Azimuth1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37751BEC2C973ADD007B1089 /* Debug */,
+				37751BED2C973ADD007B1089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37751BEE2C973ADD007B1089 /* Build configuration list for PBXNativeTarget "Azimuth1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37751BEF2C973ADD007B1089 /* Debug */,
+				37751BF02C973ADD007B1089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37751BF12C973ADD007B1089 /* Build configuration list for PBXNativeTarget "Azimuth1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37751BF22C973ADD007B1089 /* Debug */,
+				37751BF32C973ADD007B1089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37751BF42C973ADD007B1089 /* Build configuration list for PBXNativeTarget "Azimuth1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37751BF52C973ADD007B1089 /* Debug */,
+				37751BF62C973ADD007B1089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37751BC12C973ADC007B1089 /* Project object */;
+}
